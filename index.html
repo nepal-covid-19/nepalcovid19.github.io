@@ -338,11 +338,16 @@
       $('#table-ambulance').DataTable();
       $('#table-remdesivir').DataTable();
       $('#table-testing').DataTable();
+      display_table('beds');
       $('.box').on('click',function(){
         $id = this.id;
-        $('.dataTables_wrapper').hide();
-        $('#table-'+$id+'_wrapper').show();
+        display_table($id);
       })
+
+      function display_table(id){
+        $('.dataTables_wrapper').hide();
+        $('#table-'+id+'_wrapper').show();
+      }
     });
   </script>
 </body>
