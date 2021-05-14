@@ -308,3 +308,12 @@ body {
 }
 
 .medical-icon-neurology {font-size: 7em;}
+
+.box {
+  border: #000 1px solid;
+  margin-right: 2%;
+  max-width: 200px;
+  cursor: pointer;
+  height: 200px;
+  border-radius: 5px;
+}
