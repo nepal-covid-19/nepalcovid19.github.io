@@ -1,82 +1,521 @@
-{ 
-    "Parsa": [
-        {
-            "hospital": "Narayani Hospital",
-            "gen": "-",
-            "icu": "10",
-            "vent": "17",
-            "o2": "100",
-            "focal": "Dr. Saroj Roshan Das",
-            "contact": "9855038101"
-         },
-          {
-            "hospital": "Narayani Vayodha Hospital",
-            "gen": "-",
-            "icu": "7",
-            "vent": "2",
-            "o2": "-",
-            "focal": "Mr. Bishnu Patel",
-            "contact": "9801912660"
-         },
-          {
-            
-            "hospital": "Terai Hospital and research center",
-            "gen": "22",
-            "icu": "-",
-            "vent": "3",
-            "o2": "-",
-            "focal": "Reception",
-            "contact": "051-419252"
-         },
-          {
-    
-            "hospital": "Birgunj Health Care Center",
-            "gen": "-",
-            "icu": "23",
-            "vent": "2",
-            "o2": "-",
-            "focal": "Mr. Tahir Ansari",
-            "contact": "9809109080"
-         },
-          {
-       
-            "hospital": "Gandak hospital",
-            "gen": "24",
-            "icu": "-",
-            "vent": "-",
-            "o2": "-",
-            "focal": "Ms. Rita Gurung/ reception",
-            "contact": "9804139282,051-591011"
-         },
-          {
-         
-            "hospital": "National Medical College, Birgunj",
-            "gen": "130",
-            "icu": "20",
-            "vent": "10",
-            "o2": "20",
-            "focal": "Dr. Om Prakash Kushwaha",
-            "contact": "9851244165"
-         },
-          {
-         
-            "hospital": "Birgunj Metropolitan Temporary Covid Hospital",
-            "gen": "100",
-            "icu": "-",
-            "vent": "-",
-            "o2": "-",
-            "focal": "-",
-            "contact": "9844534202"
-         },
-          {
-            "hospital": "Sparsha Multispeciality Hospital",
-            "gen": "-",
-            "icu": "-",
-            "vent": "-",
-            "o2": "-",
-            "focal": "Dr.Maheswar Kurmi",
-            "contact": "9841857207"
-         }
-    ]
+{
+  "Parsa": [
+    {
+    "FIELD1": 1,
+    "district": "Parsa",
+    "hospital": "Narayani Hospital",
+    "gen": "-",
+    "icu": "10",
+    "vent": "17",
+    "o2": "100",
+    "focal": "Dr. Saroj Roshan Das",
+    "contact": "9855038101"
+  },
+  {
+    "FIELD1": null,
+    "district": "",
+    "hospital": "Narayani Vayodha Hospital",
+    "gen": "-",
+    "icu": "7",
+    "vent": "2",
+    "o2": "-",
+    "focal": "Mr. Bishnu Patel",
+    "contact": "9801912660"
+  },
+  {
+    "FIELD1": null,
+    "district": "",
+    "hospital": "Terai Hospital and research center",
+    "gen": "22",
+    "icu": "-",
+    "vent": "3",
+    "o2": "-",
+    "focal": "Reception",
+    "contact": "051-419252"
+  },
+  {
+    "FIELD1": null,
+    "district": "",
+    "hospital": "Birgunj Health Care Center",
+    "gen": "-",
+    "icu": "23",
+    "vent": "2",
+    "o2": "-",
+    "focal": "Mr. Tahir Ansari",
+    "contact": "9809109080"
+  },
+  {
+    "FIELD1": null,
+    "district": "",
+    "hospital": "Gandak hospital",
+    "gen": "24",
+    "icu": "-",
+    "vent": "-",
+    "o2": "-",
+    "focal": "Ms. Rita Gurung/ reception",
+    "contact": "9804139282,051-591011"
+  },
+  {
+    "FIELD1": null,
+    "district": "",
+    "hospital": "National Medical College, Birgunj",
+    "gen": "130",
+    "icu": "20",
+    "vent": "10",
+    "o2": "20",
+    "focal": "Dr. Om Prakash Kushwaha",
+    "contact": "9851244165"
+  },
+  {
+    "FIELD1": null,
+    "district": "",
+    "hospital": "Birgunj Metropolitan Temporary Covid Hospital",
+    "gen": "100",
+    "icu": "-",
+    "vent": "-",
+    "o2": "-",
+    "focal": "-",
+    "contact": "9844534202"
+  },
+  {
+    "FIELD1": null,
+    "district": "",
+    "hospital": "Sparsha Multispeciality Hospital",
+    "gen": "-",
+    "icu": "-",
+    "vent": "-",
+    "o2": "-",
+    "focal": "Dr.Maheswar Kurmi",
+    "contact": "9841857207"
+  },
+  {
+    "FIELD1": 2,
+    "district": "Bara",
+    "hospital": "Kalaiya hospital, Bara",
+    "gen": "15",
+    "icu": "-",
+    "vent": "-",
+    "o2": "-",
+    "focal": "Dr. Gaurav Mahato",
+    "contact": "9855048518"
+  },
+  {
+    "FIELD1": 3,
+    "district": "Sarlahi",
+    "hospital": "Malangwa hospital, Sarlahi",
+    "gen": "5",
+    "icu": "-",
+    "vent": "-",
+    "o2": "-",
+    "focal": "Shree Prasad Sah",
+    "contact": "9844027330"
+  }],
 
+  "Bara": [
+    {
+      "FIELD1": 2,
+      "hospital": "Kalaiya hospital, Bara",
+      "gen": "15",
+      "icu": "-",
+      "vent": "-",
+      "o2": "-",
+      "focal": "Dr. Gaurav Mahato",
+      "contact": "9855048518"
+    }
+  ],
+
+  "Sarlahi": [
+    {
+      "FIELD1": 3,
+      "hospital": "Malangwa hospital, Sarlahi",
+      "gen": "5",
+      "icu": "-",
+      "vent": "-",
+      "o2": "-",
+      "focal": "Shree Prasad Sah",
+      "contact": "9844027330"
+    }
+  ],
+  "Rautahat": [
+    {
+      "FIELD1": 4,
+      "district": "Rautahat",
+      "hospital": "Gaur hospital PVT LTD",
+      "gen": "10",
+      "icu": "-",
+      "vent": "     ",
+      "o2": "",
+      "focal": "Dr. Ghanyshyam Sah",
+      "contact": "055-520091, 9842162060"
+    }
+  ],
+  "Dhanusha": [
+    {
+      "FIELD1": 5,
+      "district": "Dhanusha",
+      "hospital": "Janakpur Zonal Hospital",
+      "gen": "4",
+      "icu": "",
+      "vent": "1",
+      "o2": "58",
+      "focal": "",
+      "contact": "9851233778"
+    },
+    {
+      "FIELD1": null,
+      "district": "",
+      "hospital": "(5 transport ventilator)",
+      "gen": "",
+      "icu": "",
+      "vent": "",
+      "o2": "",
+      "focal": "Dr. Jamun Singh ",
+      "contact": "9851000009"
+    },
+    {
+      "FIELD1": null,
+      "district": "",
+      "hospital": "Kabya Hospital",
+      "gen": "",
+      "icu": "",
+      "vent": "",
+      "o2": "",
+      "focal": "",
+      "contact": "9854028506"
+    }
+  ],
+
+  "Mahottari": [
+    {
+      "FIELD1": 6,
+      "district": "Mahottari",
+      "hospital": "Bardibas Hospital, Mahottari",
+      "gen": "15",
+      "icu": "-",
+      "vent": "-",
+      "o2": "-",
+      "focal": "Dr. Sunil Kumar Daha",
+      "contact": "9819844797"
+    },
+    {
+      "FIELD1": null,
+      "district": "",
+      "hospital": "",
+      "gen": "",
+      "icu": "",
+      "vent": "",
+      "o2": "",
+      "focal": "",
+      "contact": ""
+    }
+  ],
+
+  "Saptari": [
+    {
+      "FIELD1": 7,
+      "district": "Saptari",
+      "hospital": "Gajendra narayan singh sagarmatha zonal hospital",
+      "gen": "",
+      "icu": "",
+      "vent": "",
+      "o2": "",
+      "focal": "Mr. Prakash Yadav",
+      "contact": "031-520155"
+    }
+  ],
+
+  "Siraha": [
+    {
+      "FIELD1": 8,
+      "district": "Siraha",
+      "hospital": "Siraha covid hospital",
+      "gen": "10",
+      "icu": "-",
+      "vent": "-",
+      "o2": "-",
+      "focal": "Dr. Nagendra pd yadav",
+      "contact": "9844274501"
+    }
+  ],
+
+  "Kathmandu": [
+    {
+      "FIELD1": null,
+      "district": "",
+      "hospital": "Patan hospital",
+      "gen": "150",
+      "icu": "21",
+      "vent": "15",
+      "o2": "-",
+      "focal": "Dr. Shree Krishna Maharjan/Dr.Moni Subedi",
+      "contact": "01-5522295, 01-5545112,9851199684\n"
+    },
+    {
+      "FIELD1": null,
+      "district": "",
+      "hospital": "Nepal armed force police hospital",
+      "gen": "140",
+      "icu": "",
+      "vent": "",
+      "o2": "",
+      "focal": "Mr. Mahendra Pantha",
+      "contact": "01-4325224"
+    },
+    {
+      "FIELD1": 9,
+      "district": "Kathmandu",
+      "hospital": "Sukraraj tropical and infectious disease hospital",
+      "gen": "60",
+      "icu": "20",
+      "vent": "12",
+      "o2": "-",
+      "focal": "",
+      "contact": "01-4253396"
+    },
+    {
+      "FIELD1": null,
+      "district": "",
+      "hospital": "Bir hospital",
+      "gen": "135",
+      "icu": "",
+      "vent": "",
+      "o2": "",
+      "focal": "Dr. Neelam Acharya",
+      "contact": "01-4221988"
+    },
+    {
+      "FIELD1": null,
+      "district": "",
+      "hospital": "Ayurbed research and training center hospital",
+      "gen": "125",
+      "icu": "-",
+      "vent": "-",
+      "o2": "-",
+      "focal": "",
+      "contact": "01-4334919"
+    },
+    {
+      "FIELD1": null,
+      "district": "",
+      "hospital": "Birendra Army hospital",
+      "gen": "65",
+      "icu": "5",
+      "vent": "3",
+      "o2": "-",
+      "focal": "",
+      "contact": "01-4271941"
+    },
+    {
+      "FIELD1": null,
+      "district": "",
+      "hospital": "Kathmandu medical college, Sinamangal",
+      "gen": "",
+      "icu": "",
+      "vent": "",
+      "o2": "",
+      "focal": "Mr. Bhawesh Mishra",
+      "contact": "01-4476152,9802335113"
+    },
+    {
+      "FIELD1": null,
+      "district": "",
+      "hospital": "Kathmandu University School of Medical Sciences",
+      "gen": "",
+      "icu": "",
+      "vent": "",
+      "o2": "",
+      "focal": "Dr. Nirajan Bhusal",
+      "contact": "9801002258, 01-490497"
+    },
+    {
+      "FIELD1": null,
+      "district": "",
+      "hospital": "Bhaktapur Hospital",
+      "gen": "68",
+      "icu": "6",
+      "vent": "6",
+      "o2": "-",
+      "focal": "",
+      "contact": ""
+    },
+    {
+      "FIELD1": null,
+      "district": "",
+      "hospital": "Teaching hospital",
+      "gen": "249",
+      "icu": "",
+      "vent": "24",
+      "o2": "100",
+      "focal": "",
+      "contact": "01-4412303"
+    },
+    {
+      "FIELD1": null,
+      "district": "",
+      "hospital": "Prashuti griha",
+      "gen": "14",
+      "icu": "",
+      "vent": "",
+      "o2": "",
+      "focal": "",
+      "contact": ""
+    },
+    {
+      "FIELD1": null,
+      "district": "",
+      "hospital": "Star Hospital",
+      "gen": "100",
+      "icu": "",
+      "vent": "",
+      "o2": "",
+      "focal": "Ms. Rupa Nepal",
+      "contact": "01-5540478, 9841294839"
+    },
+    {
+      "FIELD1": null,
+      "district": "",
+      "hospital": "B & B Hospital",
+      "gen": "",
+      "icu": "",
+      "vent": "",
+      "o2": "",
+      "focal": "Mr. Sanjit Shrestha",
+      "contact": "01-5531930,9851114430"
+    },
+    {
+      "FIELD1": null,
+      "district": "",
+      "hospital": "Nepal Medicity Hospital",
+      "gen": "",
+      "icu": "",
+      "vent": "",
+      "o2": "",
+      "focal": "Mr. Nageshwor Chaudhary",
+      "contact": "01-4217766,9801235623"
+    },
+    {
+      "FIELD1": null,
+      "district": "",
+      "hospital": "Nepal Korea Friendship Hospital",
+      "gen": "",
+      "icu": "",
+      "vent": "",
+      "o2": "",
+      "focal": "Mr. Rajindra Napit",
+      "contact": "9841500429"
+    },
+    {
+      "FIELD1": null,
+      "district": "",
+      "hospital": "HAMS hospital ",
+      "gen": "100",
+      "icu": "21",
+      "vent": "15",
+      "o2": "60",
+      "focal": "Kanchan Ojha",
+      "contact": "9844534841"
+    },
+    {
+      "FIELD1": null,
+      "district": "",
+      "hospital": "Kantipur Hospital",
+      "gen": "",
+      "icu": "",
+      "vent": "",
+      "o2": "",
+      "focal": "",
+      "contact": ""
+    },
+    {
+      "FIELD1": null,
+      "district": "",
+      "hospital": "Janamaitri Hospital",
+      "gen": "100",
+      "icu": "12",
+      "vent": "6",
+      "o2": "100",
+      "focal": "Dr. Gunaraj Dhungana",
+      "contact": "01-4366301"
+    },
+    {
+      "FIELD1": null,
+      "district": "",
+      "hospital": "Blue-cross Hospital",
+      "gen": "-",
+      "icu": "18",
+      "vent": "7",
+      "o2": "-",
+      "focal": "Dr.Prajwal Man shrestha",
+      "contact": "01-4262027,9851092392"
+    },
+    {
+      "FIELD1": null,
+      "district": "",
+      "hospital": "Norvic Hospital ",
+      "gen": "",
+      "icu": "",
+      "vent": "",
+      "o2": "",
+      "focal": "",
+      "contact": "01-5970032"
+    },
+    {
+      "FIELD1": null,
+      "district": "",
+      "hospital": "Vayodhya Hospital, Balkhu",
+      "gen": "50",
+      "icu": "15",
+      "vent": "-",
+      "o2": "-",
+      "focal": "",
+      "contact": "01-4286428"
+    },
+    {
+      "FIELD1": null,
+      "district": "",
+      "hospital": "Nijamati Karmachari Hospital, Baneshwar",
+      "gen": "50",
+      "icu": "14",
+      "vent": "6",
+      "o2": "-",
+      "focal": "",
+      "contact": ""
+    }
+  ],
+
+  "Chitwan": [
+    {
+      "FIELD1": 10,
+      "district": "Bharatpur",
+      "hospital": "Bharatpur Hospital",
+      "gen": "",
+      "icu": "",
+      "vent": "",
+      "o2": "",
+      "focal": "",
+      "contact": "056-594306"
+    },
+    {
+      "FIELD1": null,
+      "district": "",
+      "hospital": "Chitwan Medical College and teaching center",
+      "gen": "",
+      "icu": "",
+      "vent": "",
+      "o2": "",
+      "focal": "",
+      "contact": "056-532933"
+    },
+    {
+      "FIELD1": null,
+      "district": "",
+      "hospital": "BP Koirala Memorial Cancer hospital",
+      "gen": "",
+      "icu": "",
+      "vent": "",
+      "o2": "",
+      "focal": "Dr. Suraj Upreti",
+      "contact": "056-524501,9855014411"
+    }
+  ]
 }

@@ -116,7 +116,7 @@
         <optgroup label="Province No. 1"></optgroup>
         <optgroup label="Province No. 2">
           <option>Siraha</option>
-          <option>Dhanusa</option>
+          <option>Dhanusha</option>
           <option>Mahottari</option>
           <option>Sarlahi</option>
           <option>Rautahat</option>
@@ -124,6 +124,8 @@
           <option selected>Parsa</option>
         </optgroup>
         <optgroup label="Bagmati Pradesh"></optgroup>
+          <option>Kathmandu</option>
+          <option>Chitwan</option>
         <optgroup label="Gandaki Pradesh"></optgroup>
         <optgroup label="Lumbini Pradesh"></optgroup>
         <optgroup label="Karnali Pradesh"></optgroup>
@@ -358,7 +360,9 @@
           showColumns: true,
           search: true,
           showRefresh: true,
-          url: 'hospitals_parsa.json',
+          // url: 'hospitals_parsa.json',
+          url: 'data/table-beds.json',
+
           responseHandler: function (result) {
             json = [];
             if(place && (place in result)){
