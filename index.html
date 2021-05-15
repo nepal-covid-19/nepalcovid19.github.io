@@ -142,7 +142,7 @@
       <h5>Medical resources: </h5>
 
       <div class="row div-center" >
-        <div class="col parent" id="beds">
+        <div class="col parent highlight" id="beds">
           <div class="child text-center">
             <img src="img/noun_Bed_3257165.png" alt="" /> Beds
           </div>
@@ -150,19 +150,19 @@
 
         <!-- <div class="sc-hKwCoD kZHUHp"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="sc-gsDJrp jXLjZO"><polyline points="20 6 9 17 4 12"></polyline></svg><img src="img/beds.svg" alt="beds"></div> -->
 
-        <div class="col parent" id="beds">
+        <div class="col parent" id="ambulance">
           <div class="child text-center">
             <img src="img/noun_Ambulance_1170744.png" alt="" /> Ambulance
           </div>
         </div>
 
-        <div class="col parent" id="beds">
+        <div class="col parent" id="remdesivir">
           <div class="child text-center">
             <img src="img/noun_Medicine_3447302.png" alt="" /> Medicine
           </div>
         </div>
 
-        <div class="col parent" id="beds">
+        <div class="col parent" id="testing">
           <div class="child text-center">
             <img src="img/noun_covid test_3826346.png" alt="" /> Covid Testing
           </div>
@@ -185,17 +185,16 @@
             <th data-field="contact">Contact</th>
           </tr>
         </thead>
-        <!-- <tbody>
+      </table>
+
+      <table id="table-ambulance" class="table table-striped" style="width: 100%"  >
+        <thead class="text-center">
           <tr>
-            <td>Gajendra narayan singh sagarmatha zonal hospital</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>Mr. Prakash Yadav</td>
-            <td>031-520155</td>
+            <th data-field="hospital">Ambulance Services</th>
+            <th data-field="focal">Focal <br/> Person</th>
+            <th data-field="contact">Contact</th>
           </tr>
-        </tbody> -->
+        </thead>
       </table>
 
       <!-- <table id="table-ambulance" class="display" style="width: 100%">
@@ -289,11 +288,8 @@
       integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
       crossorigin="anonymous"
     ></script>
-    <!-- <script src="//cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script> -->
-     <!-- Latest compiled and minified JavaScript -->
      <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta2/dist/js/bootstrap-select.min.js"></script>
      <script src="https://unpkg.com/bootstrap-table@1.18.3/dist/bootstrap-table.min.js"></script>
-     <!-- <script type="text/javascript" src="data.json"></script> -->
     <script src="js/main.js"></script>
 
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
@@ -312,74 +308,52 @@
 
     <script>
       $(document).ready(function () {
-        // $("#table-beds").DataTable();
-        // // $("#table-ambulance").DataTable();
-        // // $("#table-remdesivir").DataTable();
-        // // $("#table-testing").DataTable();
-        // display_table("beds");
         var place = $('select').val();
-        $(".box").on("click", function () {
+        var url = 'data/table-beds.json';
+        $table = $('#table-beds');
+        $table_ambulance = $('#table-ambulance');
+        
+        init_table();
+
+        $(".parent").on("click", function () {
+          $('.parent').removeClass('highlight');
+          $(this).addClass('highlight');
           $id = this.id;
-          display_table($id);
+          refresh_table();
         });
 
-        function display_table(id) {
-          $(".dataTables_wrapper").hide();
-          $("#table-" + id + "_wrapper").show();
+        function update_url(id) {
+          $table.bootstrapTable('load',{
+            url: 'data/table-'+id+'.json'
+          })
         }
         
-        
-        var json = (function() {
-          var json = null;
-          $.ajax({
-            'async': false,
-            'global': false,
-            // 'url': "hospitals_parsa.json",
-            'url': "data/table-beds.json",
-            'dataType': "json",
-            'success': function(data) {
-              if(place){
-                json = data[place];
-                // $.each(json,function(){
-                  
-                // })
+        function init_table(url){
+          $table.bootstrapTable({
+            showColumns: true,
+            search: true,
+            showRefresh: true,
+            url: url,
+            responseHandler: function (result) {
+              json = [];
+              if(place && (place in result)){
+                json = result[place];
               }
-              else{
-                json = data;
-              }
+              return json;
             }
           });
-          return json;
-        })();
-        
-        // $('#table-beds').bootstrapTable({
-        //   data: json[place],
-        //   showColumns: true,
-        //     search: true,
-        //     showRefresh: true,
-        // });
-        $table = $('#table-beds');
-        $table.bootstrapTable({
-          showColumns: true,
-          search: true,
-          showRefresh: true,
-          // url: 'hospitals_parsa.json',
-          url: 'data/table-beds.json',
+        }
 
-          responseHandler: function (result) {
-            json = [];
-            if(place && (place in result)){
-              json = result[place];
-            }
-            return json;
-          }
-        })
         $('select').on('change',function(){
-          place = this.value;
-          log(place)
-          $table.bootstrapTable('refresh');
-        })
+          place = this.value;      
+          refresh_table();
+        });
+
       });
+
+      function refresh_table(){
+        $table.bootstrapTable('refresh');
+      }
 
       function log($log){
         console.log($log);

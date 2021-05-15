@@ -369,3 +369,7 @@ td {
 .table td {
     text-align: center;   
  }
+
+ .highlight {
+   background: grey;
+ }
