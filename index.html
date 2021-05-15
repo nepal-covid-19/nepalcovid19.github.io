@@ -186,7 +186,7 @@
         </thead>
       </table>
 
-      <table id="table-ambulance" class="table table-striped" style="width: 100%"  >
+      <!-- <table id="table-ambulance" class="table table-striped" style="width: 100%"  >
         <thead class="text-center">
           <tr>
             <th data-field="hospital">Ambulance Services</th>
@@ -194,7 +194,7 @@
             <th data-field="contact">Contact</th>
           </tr>
         </thead>
-      </table>
+      </table> -->
 
       <!-- <table id="table-ambulance" class="display" style="width: 100%">
         <thead>
@@ -310,9 +310,9 @@
         var place = $('select').val();
         var url = 'data/table-beds.json';
         $table = $('#table-beds');
-        $table_ambulance = $('#table-ambulance');
-        
-        init_table();
+        // $table_ambulance = $('#table-ambulance');
+
+        init_table(url);
 
         $(".parent").on("click", function () {
           $('.parent').removeClass('highlight');
