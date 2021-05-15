@@ -23,6 +23,7 @@
       crossorigin="anonymous"
     />
 
+
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link
@@ -41,13 +42,14 @@
       rel="stylesheet"
       href="//cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css"
     />
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.18.3/dist/bootstrap-table.min.css">
+
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta2/dist/js/bootstrap-select.min.js"></script>
+    <script src="https://unpkg.com/bootstrap-table@1.18.3/dist/bootstrap-table.min.js"></script>
+    <!-- <script type="text/javascript" src="data.json"></script> -->
 
-    <!-- Medical icons -->
-    <!-- <link rel="stylesheet" href="/css/wfmi-style.css"> -->
-    <link rel="stylesheet" href="/css/wfmi-style.css" />
   </head>
 
   <body>
@@ -172,20 +174,19 @@
      
 
       <!-- table -->
-      <table id="table-beds" class="table table-striped" style="width: 100%">
+      <table id="table-beds" class="table table-striped" style="width: 100%" data-url="hospitals.json">
         <thead class="text-center">
           <tr>
-            <th>Hospitals</th>
-            <th>General<br/> Beds</th>
-            <th>ICU <br/>Beds</th>
-            <th>Ventilator <br/> Beds</th>
-            <th>Oxygen <br/>Beds</th>
-            <th>Focal <br/> Person</th>
-            <th>Contact</th>
-            <th>Place</th>
+            <th data-field="hospital">Hospitals</th>
+            <th data-field="gen">General<br/> Beds</th>
+            <th data-field="icu">ICU <br/>Beds</th>
+            <th data-field="vent">Ventilator <br/> Beds</th>
+            <th data-field="o2">Oxygen <br/>Beds</th>
+            <th data-field="focal">Focal <br/> Person</th>
+            <th data-field="contact">Contact</th>
           </tr>
         </thead>
-        <tbody>
+        <!-- <tbody>
           <tr>
             <td>Gajendra narayan singh sagarmatha zonal hospital</td>
             <td>-</td>
@@ -194,9 +195,8 @@
             <td>-</td>
             <td>Mr. Prakash Yadav</td>
             <td>031-520155</td>
-            <td>Saptari</td>
           </tr>
-        </tbody>
+        </tbody> -->
       </table>
 
       <!-- <table id="table-ambulance" class="display" style="width: 100%">
@@ -309,11 +309,11 @@
 
     <script>
       $(document).ready(function () {
-        $("#table-beds").DataTable();
-        // $("#table-ambulance").DataTable();
-        // $("#table-remdesivir").DataTable();
-        // $("#table-testing").DataTable();
-        display_table("beds");
+        // $("#table-beds").DataTable();
+        // // $("#table-ambulance").DataTable();
+        // // $("#table-remdesivir").DataTable();
+        // // $("#table-testing").DataTable();
+        // display_table("beds");
         $(".box").on("click", function () {
           $id = this.id;
           display_table($id);
@@ -323,6 +323,15 @@
           $(".dataTables_wrapper").hide();
           $("#table-" + id + "_wrapper").show();
         }
+
+        var hospitals = JSON.parse(hospitals.JSON)
+        console.log(hospitals)
+
+        // $('#table-beds').bootstrapTable({
+        //   data: 'hospitals',
+        //   // pagination: true,
+        //   // search: true
+        // });
       });
     </script>
   </body>

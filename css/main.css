@@ -362,7 +362,7 @@ body {
 } */ 
 td {
   overflow: hidden;
-  max-width: 250px;
+  max-width: 200px;
   word-wrap: break-word;
   }
 

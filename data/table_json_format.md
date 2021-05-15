@@ -1,0 +1,8 @@
+"hospital"
+"gen"
+"icu"
+"vent"
+"o2"
+"focal"
+"contact"
+"place"
