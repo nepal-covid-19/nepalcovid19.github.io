@@ -312,6 +312,7 @@
         // // $("#table-remdesivir").DataTable();
         // // $("#table-testing").DataTable();
         // display_table("beds");
+        var place = $('select').val();
         $(".box").on("click", function () {
           $id = this.id;
           display_table($id);
@@ -321,7 +322,8 @@
           $(".dataTables_wrapper").hide();
           $("#table-" + id + "_wrapper").show();
         }
-
+        
+        
         var json = (function() {
           var json = null;
           $.ajax({
@@ -331,30 +333,50 @@
             'url': "data/table-beds.json",
             'dataType': "json",
             'success': function(data) {
-              json = data;
+              if(place){
+                json = data[place];
+                // $.each(json,function(){
+                  
+                // })
+              }
+              else{
+                json = data;
+              }
             }
           });
           return json;
         })();
         
-        var place = 'Parsa';
-        $('#table-beds').bootstrapTable({
-          data: json[place],
-          showColumns: true,
-            search: true,
-            showRefresh: true,
-        });
+        // $('#table-beds').bootstrapTable({
+        //   data: json[place],
+        //   showColumns: true,
+        //     search: true,
+        //     showRefresh: true,
+        // });
         $table = $('#table-beds');
+        $table.bootstrapTable({
+          showColumns: true,
+          search: true,
+          showRefresh: true,
+          url: 'hospitals_parsa.json',
+          responseHandler: function (result) {
+            json = [];
+            if(place && (place in result)){
+              json = result[place];
+            }
+            return json;
+          }
+        })
         $('select').on('change',function(){
           place = this.value;
-          $table.bootstrapTable('refreshOptions', {
-            showColumns: true,
-            search: true,
-            showRefresh: true,
-            data: json[place]
-          })
+          log(place)
+          $table.bootstrapTable('refresh');
         })
       });
+
+      function log($log){
+        console.log($log);
+      }
     </script>
   </body>
 </html>
