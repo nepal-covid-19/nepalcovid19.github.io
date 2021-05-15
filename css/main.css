@@ -316,4 +316,56 @@ body {
   cursor: pointer;
   height: 200px;
   border-radius: 5px;
+  
 }
+
+
+.parent {
+  align-items: center;
+  border: #000 1px solid;
+  margin-right: 2%;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  max-width: 200px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: justify;
+}
+
+.child {
+  /* border: 1px solid black; */
+  text-align: justify;
+
+  
+  height: 150px;
+  width: 150px;
+}
+
+.div-center{
+  justify-content: center;
+}
+/* 
+ td {
+
+  white-space: -o-pre-wrap; 
+  word-wrap: break-word;
+  white-space: pre-wrap; 
+  white-space: -moz-pre-wrap; 
+  white-space: -pre-wrap; 
+
+} */
+
+/* table { 
+  table-layout: fixed;
+  width: 100%
+} */ 
+td {
+  overflow: hidden;
+  max-width: 250px;
+  word-wrap: break-word;
+  }
+
+.table td {
+    text-align: center;   
+ }

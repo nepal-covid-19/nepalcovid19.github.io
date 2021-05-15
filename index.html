@@ -1,46 +1,59 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <!-- Place favicon.ico in the root directory -->
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+      crossorigin="anonymous"
+    />
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
-
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <meta name="theme-color" content="#fafafa">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta name="theme-color" content="#fafafa" />
 
     <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta2/dist/css/bootstrap-select.min.css">
-  
-  <link rel="stylesheet" href="//cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css">  
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta2/dist/css/bootstrap-select.min.css"
+    />
 
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta2/dist/js/bootstrap-select.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="//cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css"
+    />
 
-  <!-- Medical icons -->
-  <!-- <link rel="stylesheet" href="/css/wfmi-style.css"> -->
-</head>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta2/dist/js/bootstrap-select.min.js"></script>
 
-<body>
+    <!-- Medical icons -->
+    <!-- <link rel="stylesheet" href="/css/wfmi-style.css"> -->
+    <link rel="stylesheet" href="/css/wfmi-style.css" />
+  </head>
 
-  <!-- Add your site or application content here -->
-  <header>
-    <!-- <div class="nav">
+  <body>
+    <!-- Add your site or application content here -->
+    <header>
+      <!-- <div class="nav">
       <ul>
        <li><a href=""><img src="icon.png" alt="" width="60" height="35"></a></li> 
         <li><a href="">Hospital Info</a> </li>
@@ -50,33 +63,42 @@
       </ul>
     </div> -->
 
-    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">COVID-19 Nepal</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <!-- <li class="nav-item">
+      <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">COVID-19 Nepal</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <!-- <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li> -->
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Hospital Info</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Ask Doctor</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">COVID-19 Data</a>
-            </li>
-          </ul>
-         
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Hospital Info</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Ask Doctor</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">COVID-19 Data</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-  </header>
-  <!-- 201 Saptari
+      </nav>
+    </header>
+    <!-- 201 Saptari
   202 Siraha
   203 Dhanusa
   204 Mahottari
@@ -85,271 +107,223 @@
   207 Bara
   208 Parsa -->
 
-  <div>
-  <hr/>
-    <label for="dist-prov-select"> Select district: </label>
-    <!-- <select class="form-select" aria-label=".form-select-lg example"> -->
-      <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-      <!-- <optgroup label="Group 1"></optgroup> -->
-      <!-- <option selected>Open this select menu</option> -->
-      <optgroup label="Province No. 1"></optgroup>
-      <optgroup label="Province No. 2">
-          <option> Siraha </option>
-          <option> Dhanusa </option>
-          <option> Mahottari </option>
-          <option> Sarlahi </option>
-          <option> Rautahat </option>
-          <option> Bara </option>
-          <option selected> Parsa </option>
-      </optgroup>
-      <optgroup label="Bagmati Pradesh"></optgroup>
-      <optgroup label="Gandaki Pradesh"></optgroup>
-      <optgroup label="Lumbini Pradesh"></optgroup>
-      <optgroup label="Karnali Pradesh"></optgroup>
-      <optgroup label="Sudurpashchim Pradesh"></optgroup>
-    </select>
-    
+    <div>
+      <hr />
+      <label for="dist-prov-select"> Select district: </label>
+      <!-- <select class="form-select" aria-label=".form-select-lg example"> -->
+      <select
+        class="form-select form-select-lg mb-3"
+        aria-label=".form-select-lg example"
+      >
+        <!-- <optgroup label="Group 1"></optgroup> -->
+        <!-- <option selected>Open this select menu</option> -->
+        <optgroup label="Province No. 1"></optgroup>
+        <optgroup label="Province No. 2">
+          <option>Siraha</option>
+          <option>Dhanusa</option>
+          <option>Mahottari</option>
+          <option>Sarlahi</option>
+          <option>Rautahat</option>
+          <option>Bara</option>
+          <option selected>Parsa</option>
+        </optgroup>
+        <optgroup label="Bagmati Pradesh"></optgroup>
+        <optgroup label="Gandaki Pradesh"></optgroup>
+        <optgroup label="Lumbini Pradesh"></optgroup>
+        <optgroup label="Karnali Pradesh"></optgroup>
+        <optgroup label="Sudurpashchim Pradesh"></optgroup>
+      </select>
 
-    <hr/>
-    <!-- <h4 class="bottom-border">
+      <hr />
+      <!-- <h4 class="bottom-border">
       Select the resource you are looking for:
     </h4> -->
-    <h5>Details</h5>
-    
-    <div class="row">
-      <div class="col box" id="beds">
-        <!-- <i class="fa fa-bed"></i> -->
-        <!-- <span class="medical-icon-accessibility" aria-hidden="true"></span> -->
-        <img src="img/beds.svg" alt="">
-        <!-- <a href=""><p>Hospital Beds</p></a> -->
+      <h5>Medical resources</h5>
+
+      <div class="row div-center" >
+        <div class="col parent" id="beds">
+          <div class="child text-center">
+            <img src="img/noun_Bed_3257165.png" alt="" /> Beds
+          </div>
+        </div>
+
+        <!-- <div class="sc-hKwCoD kZHUHp"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="sc-gsDJrp jXLjZO"><polyline points="20 6 9 17 4 12"></polyline></svg><img src="img/beds.svg" alt="beds"></div> -->
+
+        <div class="col parent" id="beds">
+          <div class="child text-center">
+            <img src="img/noun_Ambulance_1170744.png" alt="" /> Ambulance
+          </div>
+        </div>
+
+        <div class="col parent" id="beds">
+          <div class="child text-center">
+            <img src="img/noun_injection_2155341.png" alt="" /> Remdesivir
+          </div>
+        </div>
+
+        <div class="col parent" id="beds">
+          <div class="child text-center">
+            <img src="img/noun_covid test_3826346.png" alt="" /> Covid Testing
+          </div>
+        </div>
       </div>
 
-      <div class="col box" id="ambulance">
-        <!-- <i class="fa fa-ambulance"></i> -->
-        <!-- <span class="medical-icon-i-intensive-care"></span> -->
-        <img src="img/ambulance.svg" alt="" width="80px">
+      <hr />
+     
 
-        <p>Ambulance</p>
-      </div>
-
-      <div class="col box" id="remdesivir">
-        <img src="img/remdesivir.svg" alt="">
-        <!-- <i class="fa fa-mobile"></i>
-        <a href=""><p> medicine - remdesivir</p></a> -->
-      </div>
- 
-      <div class="col box" id="testing">
-        <!-- <i class="fa fa-mobile"></i> -->
-        <img src="img/testing.svg" alt="" width="80px">
-
-        <p>testing center</p>
-      </div>
-    </div>
-
-    <hr/>
-    <!-- <div class="row">
-      <div class="col">
-        <i class="fa fa-bed"></i>
-        <a href=""><p>Hospital beds</p></a>
-      </div>
-      <div class="col">
-        <i class="fa fa-ambulance"></i>
-        <a href=""><p>Ambulance</p></a>
-      </div>
-      <div class="col">
-        <i class="fa fa-mobile"></i>
-        <a href=""><p>Teleconsultation</p></a>
-      </div>
-      <div class="col">
-        <i class="fa fa-mobile"></i>
-        <a href=""><p>Teleconsultation</p></a>
-      </div>
-    </div> -->
-
-    <!-- <div class="row">
-      <div class="col-3">
-        <i class="fa fa-bed"></i>
-        <a href=""><p>Testing</p></a>
-      </div>
-      <div class="col-3">
-        <i class="fa fa-home"></i>
-        <a href=""><p>Covid care at home</p></a>
-      </div>
-      <div class="col-3">
-        <i class="fa fa-truck"></i>
-        <a href=""><p>Food/Med Delivery</p></a>
-      </div>
-    </div> -->
-
-    <!-- <div class="row">
-      <div class="col-3">
-        <i class="fa fa-bed"></i>
-        <a href=""><p>Oxygen</p></a>
-      </div>
-      <div class="col-3">
-        <i class="fa fa-bed"></i>
-        <a href=""><p>Medicines</p></a>
-      </div>
-    </div> -->
-
-    <!-- table -->
-    <table id="table-beds" class="display" style="width:100%">
-      <thead>
+      <!-- table -->
+      <table id="table-beds" class="table table-striped" style="width: 100%">
+        <thead class="text-center">
           <tr>
-              <th>Hospitals/Institutions</th>
-              <th>General Covid Beds</th>
-              <th>ICU Beds</th>
-              <th>Beds with Ventilator</th>
-              <th>Beds with Oxygen</th>
-              <th>Focal Person</th>
-              <th>Contact</th>
-              <th>Place</th>
-          </tr>
-      </thead>
-      <tbody>
-          <tr>
-              <td>Gajendra narayan singh sagarmatha zonal hospital</td>
-              <td>-</td>
-              <td>-</td>
-              <td>-</td>
-              <td>-</td>
-              <td>Mr. Prakash Yadav</td>
-              <td>031-520155</td>
-              <td>Saptari</td>
-          </tr>
-          
-      </tbody>
-      <tfoot>
-          <tr>
-            <th>Hospitals/Institutions</th>
-            <th>General Covid Beds</th>
-            <th>ICU Beds</th>
-            <th>Beds with Ventilator</th>
-            <th>Beds with Oxygen</th>
-            <th>Focal Person</th>
+            <th>Hospitals</th>
+            <th>General<br/> Beds</th>
+            <th>ICU <br/>Beds</th>
+            <th>Ventilator <br/> Beds</th>
+            <th>Oxygen <br/>Beds</th>
+            <th>Focal <br/> Person</th>
             <th>Contact</th>
             <th>Place</th>
           </tr>
-      </tfoot>
-  </table>
-
-    <table id="table-ambulance" class="display" style="width:100%">
-      <thead>
+        </thead>
+        <tbody>
           <tr>
-              <th>Ambulance Services</th>
-              <th>Focal Person</th>
-              <th>Contact</th>
-              <th>Place</th>
+            <td>Gajendra narayan singh sagarmatha zonal hospital</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>Mr. Prakash Yadav</td>
+            <td>031-520155</td>
+            <td>Saptari</td>
           </tr>
-      </thead>
-      <tbody>
-          <tr>
-              <td>Birgunj Health care hospital </td>
-              <td>-</td>
-              <td>-</td>            
-              <td>Parsa</td>            
-          </tr>    
-      </tbody>
-      <tfoot>
+        </tbody>
+      </table>
+
+      <!-- <table id="table-ambulance" class="display" style="width: 100%">
+        <thead>
           <tr>
             <th>Ambulance Services</th>
             <th>Focal Person</th>
             <th>Contact</th>
             <th>Place</th>
           </tr>
-      </tfoot>
-  </table>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Birgunj Health care hospital</td>
+            <td>-</td>
+            <td>-</td>
+            <td>Parsa</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th>Ambulance Services</th>
+            <th>Focal Person</th>
+            <th>Contact</th>
+            <th>Place</th>
+          </tr>
+        </tfoot>
+      </table>
 
-  <table id="table-remdesivir" class="display" style="width:100%">
-    <thead>
-        <tr>
+      <table id="table-remdesivir" class="display" style="width: 100%">
+        <thead>
+          <tr>
             <th>Hospitals</th>
             <th>Number of Vials</th>
             <th>Contact Numbers</th>
             <th>Place</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
             <td>Teaching hospital</td>
             <td>135</td>
             <td>01-4410911</td>
             <td>-</td>
-        </tr>
-        
-    </tbody>
-    <tfoot>
-        <tr>
-          <th>Hospitals</th>
-          <th>Number of Vials</th>
-          <th>Contact Numbers</th>
-          <th>Place</th>
-        </tr>
-    </tfoot>
-  </table>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th>Hospitals</th>
+            <th>Number of Vials</th>
+            <th>Contact Numbers</th>
+            <th>Place</th>
+          </tr>
+        </tfoot>
+      </table>
 
-  <table id="table-testing" class="display" style="width:100%">
-    <thead>
-        <tr>
+      <table id="table-testing" class="display" style="width: 100%">
+        <thead>
+          <tr>
             <th>COVID Test center</th>
             <th>Test Type</th>
-            <th>Duration </th>
+            <th>Duration</th>
             <th>Amount</th>
             <th>Place</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
             <td>Narayani hospital</td>
-            <td>PCR </td>
+            <td>PCR</td>
             <td>10 A.M-12.PM</td>
             <td>1500</td>
             <td>Parsa</td>
-        </tr>        
-    </tbody>
-    <tfoot>
-        <tr>
-          <th>COVID Test center</th>
-          <th>Test Type</th>
-          <th>Duration </th>
-          <th>Amount</th>
-          <th>Place</th>
-        </tr>
-    </tfoot>
-  </table>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th>COVID Test center</th>
+            <th>Test Type</th>
+            <th>Duration</th>
+            <th>Amount</th>
+            <th>Place</th>
+          </tr>
+        </tfoot> -->
+      </table>
+    </div>
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="//cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+    <script src="js/main.js"></script>
 
-  </div>
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
-  <script src="//cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>  
-  <script src="js/main.js"></script>
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function () {
+        ga.q.push(arguments);
+      };
+      ga.q = [];
+      ga.l = +new Date();
+      ga("create", "UA-XXXXX-Y", "auto");
+      ga("set", "anonymizeIp", true);
+      ga("set", "transport", "beacon");
+      ga("send", "pageview");
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+    <script>
+      $(document).ready(function () {
+        $("#table-beds").DataTable();
+        // $("#table-ambulance").DataTable();
+        // $("#table-remdesivir").DataTable();
+        // $("#table-testing").DataTable();
+        display_table("beds");
+        $(".box").on("click", function () {
+          $id = this.id;
+          display_table($id);
+        });
 
-  <script>
-    $(document).ready( function () {
-      $('#table-beds').DataTable();
-      $('#table-ambulance').DataTable();
-      $('#table-remdesivir').DataTable();
-      $('#table-testing').DataTable();
-      display_table('beds');
-      $('.box').on('click',function(){
-        $id = this.id;
-        display_table($id);
-      })
-
-      function display_table(id){
-        $('.dataTables_wrapper').hide();
-        $('#table-'+id+'_wrapper').show();
-      }
-    });
-  </script>
-</body>
-
+        function display_table(id) {
+          $(".dataTables_wrapper").hide();
+          $("#table-" + id + "_wrapper").show();
+        }
+      });
+    </script>
+  </body>
 </html>
