@@ -1,0 +1,82 @@
+{ 
+    "Parsa": [
+        {
+            "hospital": "Narayani Hospital",
+            "gen": "-",
+            "icu": "10",
+            "vent": "17",
+            "o2": "100",
+            "focal": "Dr. Saroj Roshan Das",
+            "contact": "9855038101"
+         },
+          {
+            "hospital": "Narayani Vayodha Hospital",
+            "gen": "-",
+            "icu": "7",
+            "vent": "2",
+            "o2": "-",
+            "focal": "Mr. Bishnu Patel",
+            "contact": "9801912660"
+         },
+          {
+            
+            "hospital": "Terai Hospital and research center",
+            "gen": "22",
+            "icu": "-",
+            "vent": "3",
+            "o2": "-",
+            "focal": "Reception",
+            "contact": "051-419252"
+         },
+          {
+    
+            "hospital": "Birgunj Health Care Center",
+            "gen": "-",
+            "icu": "23",
+            "vent": "2",
+            "o2": "-",
+            "focal": "Mr. Tahir Ansari",
+            "contact": "9809109080"
+         },
+          {
+       
+            "hospital": "Gandak hospital",
+            "gen": "24",
+            "icu": "-",
+            "vent": "-",
+            "o2": "-",
+            "focal": "Ms. Rita Gurung/ reception",
+            "contact": "9804139282,051-591011"
+         },
+          {
+         
+            "hospital": "National Medical College, Birgunj",
+            "gen": "130",
+            "icu": "20",
+            "vent": "10",
+            "o2": "20",
+            "focal": "Dr. Om Prakash Kushwaha",
+            "contact": "9851244165"
+         },
+          {
+         
+            "hospital": "Birgunj Metropolitan Temporary Covid Hospital",
+            "gen": "100",
+            "icu": "-",
+            "vent": "-",
+            "o2": "-",
+            "focal": "-",
+            "contact": "9844534202"
+         },
+          {
+            "hospital": "Sparsha Multispeciality Hospital",
+            "gen": "-",
+            "icu": "-",
+            "vent": "-",
+            "o2": "-",
+            "focal": "Dr.Maheswar Kurmi",
+            "contact": "9841857207"
+         }
+    ]
+
+}
