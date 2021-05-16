@@ -1,0 +1,233 @@
+{
+    "Parsa":   
+    [
+    {
+      "district": "Parsa",
+      "center": "Narayani Hospital",
+      "type": "RT PCR",
+      "contact": "",
+      "duration": "",
+      "amount": ""
+    }],
+    
+    "Sarlahi":[
+        {
+      "district": "Sarlahi",
+      "center": "Malangwa hospital",
+      "type": "RT PCR",
+      "contact": "",
+      "duration": "",
+      "amount": ""
+    }],
+    "Rautahat":[
+        {
+      "district": "Rautahat",
+      "center": "Gaur Hospital",
+      "type": "RT PCR",
+      "contact": "",
+      "duration": "",
+      "amount": ""
+    }],
+    
+    "Dhanusha":[
+        {
+      "district": "Dhanusha",
+      "center": "Provincial Public Health Laboratory-Province 02",
+      "type": "RT PCR",
+      "contact": "",
+      "duration": "",
+      "amount": ""
+    }],
+    "Mahottari":[
+        {
+      "district": "Mahottari",
+      "center": "Bardibas Hospital",
+      "type": "RT PCR",
+      "contact": "",
+      "duration": "",
+      "amount": ""
+    }],
+    
+    "Saptari":[{
+      "district": "Saptari",
+      "center": "Gajendra Narayan Singh Hospital",
+      "type": "RT PCR",
+      "contact": "",
+      "duration": "",
+      "amount": ""
+    }],
+    
+    "Siraha":[
+    {
+      "district": "Siraha",
+      "center": "Nepal Police Hospital Laboratory",
+      "type": "RT PCR",
+      "contact": 9841268281,
+      "duration": "",
+      "amount": ""
+    },
+    {
+      "district": "Siraha",
+      "center": "Central Diagnostics Laboratory and Research Center",
+      "type": "RT PCR",
+      "contact": 9841494003,
+      "duration": "",
+      "amount": ""
+    }],
+    
+    "Kathmandu":[{
+      "district": "Kathmandu",
+      "center": "National Public health laboratory",
+      "type": "RT PCR",
+      "contact": "01-5352421",
+      "duration": "",
+      "amount": ""
+    },
+    {
+      "district": "Kathmandu",
+      "center": "Bidh Laboratory",
+      "type": "RT PCR",
+      "contact": 9851113301,
+      "duration": "",
+      "amount": ""
+    },
+    {
+      "district": "Kathmandu",
+      "center": "Sooriya healthcare",
+      "type": "RT PCR",
+      "contact": "01-4001714",
+      "duration": "",
+      "amount": ""
+    },
+    {
+      "district": "Kathmandu",
+      "center": "Kirtipur Nagarpalika COVID lab",
+      "type": "RT PCR",
+      "contact": 9851133868,
+      "duration": "",
+      "amount": ""
+    },
+    {
+      "district": "Kathmandu",
+      "center": "Alfa Healthcare and Diagnostic Center",
+      "type": "RT PCR",
+      "contact": 9851152287,
+      "duration": "",
+      "amount": ""
+    },
+    {
+      "district": "Kathmandu",
+      "center": "Sukraraj Tropical and Infectious Disease Hospital",
+      "type": "RT PCR",
+      "contact": "",
+      "duration": "",
+      "amount": ""
+    },
+    {
+      "district": "Kathmandu",
+      "center": "Bir Hospital",
+      "type": "RT PCR",
+      "contact": "",
+      "duration": "",
+      "amount": ""
+    },
+    {
+      "district": "Kathmandu",
+      "center": "Teaching Hospital",
+      "type": "RT PCR",
+      "contact": "",
+      "duration": "",
+      "amount": ""
+    },
+    {
+      "district": "Kathmandu",
+      "center": "Shree Birendra Hospital",
+      "type": "RT PCR",
+      "contact": "",
+      "duration": "",
+      "amount": ""
+    },
+    {
+      "district": "Kathmandu",
+      "center": "KMC hospital",
+      "type": "RT PCR",
+      "contact": "",
+      "duration": "",
+      "amount": ""
+    },
+    {
+      "district": "Kathmandu",
+      "center": "HAMS hospital",
+      "type": "RT PCR",
+      "contact": "",
+      "duration": "",
+      "amount": ""
+    },
+    {
+      "district": "Kathmandu",
+      "center": "Nepal APF hospital",
+      "type": "RT PCR",
+      "contact": "",
+      "duration": "",
+      "amount": ""
+    },
+    {
+      "district": "Kathmandu",
+      "center": "Patan hospital",
+      "type": "RT PCR",
+      "contact": "",
+      "duration": "",
+      "amount": ""
+    },
+    {
+      "district": "Kathmandu",
+      "center": "Star hospital laboratory",
+      "type": "RT PCR",
+      "contact": "",
+      "duration": "",
+      "amount": ""
+    },
+    {
+      "district": "Kathmandu",
+      "center": "Nepal-Korea Friendship Hospital",
+      "type": "RT PCR",
+      "contact": "",
+      "duration": "",
+      "amount": ""
+    },
+    {
+      "district": "Kathmandu",
+      "center": "B & B hospital",
+      "type": "RT PCR",
+      "contact": "",
+      "duration": "",
+      "amount": ""
+    },
+    {
+      "district": "Kathmandu",
+      "center": "Kathmandu University Teaching Hospital",
+      "type": "RT PCR",
+      "contact": "",
+      "duration": "",
+      "amount": ""
+    }],
+
+    "Chitwan":[{
+      "district": "Bharatpur",
+      "center": "Bharatpur COVID-19 Diagnostic Lab",
+      "type": "RT PCR",
+      "contact": "056-530854",
+      "duration": "",
+      "amount": ""
+    },
+    {
+      "district": "Bharatpur",
+      "center": "National Avian Disease Investigation Laboratory",
+      "type": "RT PCR",
+      "contact": "",
+      "duration": "",
+      "amount": ""
+    }
+  ]
+
+}

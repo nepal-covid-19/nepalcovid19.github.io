@@ -61,7 +61,7 @@
 
       <nav class="navbar navbar-expand-lg mb-0 navbar-light bg-light bg-primary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"> <img src="img/branding_noun.png" width="45" height="45" alt=""> <b> COVID-19 Nepal </b></a>
+          <a class="navbar-brand" href="#"> <img src="img/branding_noun.png" width="80" height="80" alt=""> <b> COVID-19 Nepal </b></a>
           <button
             class="navbar-toggler"
             type="button"
@@ -86,10 +86,10 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Ask Doctor</a>
+                <a class="nav-link" href="/comingsoon_06/index.html">Ask Doctor</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">COVID-19 Data</a>
+                <a class="nav-link" href="/comingsoon_06/index.html">COVID-19 Data</a>
               </li>
             </ul>
           </div>
@@ -182,7 +182,7 @@
             <th data-field="icu">ICU <br/>Beds</th>
             <th data-field="vent">Ventilator <br/> Beds</th>
             <th data-field="o2">Oxygen <br/>Beds</th>
-            <th data-field="focal">Focal <br/> Person</th>
+            <th data-field="focal">Focal Person</th>
             <th data-field="contact">Contact</th>
           </tr>
         </thead>
@@ -191,8 +191,8 @@
       <table id="table-ambulance" class="table table-striped" style="width: 100%"  >
         <thead class="text-center">
           <tr>
-            <th data-field="hospital">Ambulance Services</th>
-            <th data-field="focal">Focal <br/> Person</th>
+            <th data-field="hospital">Ambulance Service</th>
+            <th data-field="focal">Focal Person</th>
             <th data-field="contact">Contact</th>
           </tr>
         </thead>
@@ -201,9 +201,10 @@
       <table id="table-remdesivir" class="table table-striped " style="width: 100%"  >
         <thead class="text-center">
           <tr>
+            <th data-field="name">Type</th>
             <th data-field="hospital">Hospital</th>
-            <th data-field="vial">No. of <br/> Vials</th>
-            <th data-field="contact">Contact</th>
+            <th data-field="count">No. of Vials</th>
+            <th class="contact" data-field="contact">Contact</th>
           </tr>
         </thead>
       </table>
@@ -211,8 +212,9 @@
       <table id="table-testing" class="table table-striped " style="width: 100%"  >
         <thead class="text-center">
           <tr>
-            <th data-field="center">Covid Test <br/> Center</th>
-            <th data-field="type">Test <br/> Type</th>
+            <th data-field="center">Covid Test Center</th>
+            <th data-field="type">Test Type</th>
+            <th data-field="contact">Contact</th>
             <th data-field="duration">Duration</th>
             <th data-field="amount">Amount</th>
           </tr>

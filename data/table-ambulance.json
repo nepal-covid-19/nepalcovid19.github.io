@@ -1,0 +1,157 @@
+{
+    "Siraha":[
+    {
+      "district": "Siraha",
+      "hospital": "Redcross Society Sukhipur",
+      "focal": "BishwaNath Chaudhary",
+      "contact": 9802319333
+    },
+    {
+      "district": "Siraha",
+      "hospital": "Sukhipur Poly Clinic Pvt.Ltd",
+      "focal": "Indra Narayan Mandal",
+      "contact": 9826700014
+    },
+    {
+      "district": "Siraha",
+      "hospital": "Jinis Health Care Pvt.Ltd",
+      "focal": "Om Prakash Mahatto",
+      "contact": 9804780502
+    },
+    {
+      "district": "Siraha",
+      "hospital": "Lahan Hospital",
+      "focal": "Parmeshwar Mahatto",
+      "contact": 9852833990
+    },
+    {
+      "district": "Siraha",
+      "hospital": "Kamana Nursing Home",
+      "focal": "Arun Kumar Shah",
+      "contact": 9817610380
+    },
+    {
+      "district": "Siraha",
+      "hospital": "Jai Ganapati Poly Clinic Pvt.Ltd",
+      "focal": "Jai Ram Shah",
+      "contact": 9816744364
+    },
+    {
+      "district": "Siraha",
+      "hospital": "Samriddha Foundation",
+      "focal": "Debendra Mandal",
+      "contact": 9842962291
+    },
+    {
+      "district": "Siraha",
+      "hospital": "Lahan Advance Poly Clinic Pvt.Ltd",
+      "focal": "Manoj Kumar Yadav",
+      "contact": 9807709443
+    },
+    {
+      "district": "Siraha",
+      "hospital": "Golden Health Care and Diagnostic Center",
+      "focal": "Birendra Kumar Yadav",
+      "contact": 9819925928
+    },
+    {
+      "district": "Siraha",
+      "hospital": "Surya Jyoti Bikash Samaj",
+      "focal": "Sunil Mahatto",
+      "contact": 9815795764
+    },
+    {
+      "district": "Siraha",
+      "hospital": "Jai Ganesh Poly Clinic and Medical Center Pvt.Ltd",
+      "focal": "Ghanilal CHaudhary",
+      "contact": 9808691502
+    },
+    {
+      "district": "Siraha",
+      "hospital": "Jai Mata Di Poly Clinic Pvt.Ltd",
+      "focal": "Dinesh Kumar Karn",
+      "contact": 9814770153
+    },
+    {
+      "district": "Siraha",
+      "hospital": "Marwadi Sewa Sadan",
+      "focal": "Baidhya Nath Shah",
+      "contact": 9813946960
+    }],
+
+    "Mahottari":[
+        {
+      "district": "Mahottari",
+      "hospital": "Jaleswar Hospital",
+      "focal": "sujit kaapar",
+      "contact": 9816831485
+    },
+    {
+      "district": "Mahottari",
+      "hospital": "Nepal Redcross Society",
+      "focal": "Dilip Mahato",
+      "contact": 9844031980
+    },
+    {
+      "district": "Mahottari",
+      "hospital": "Ram Gopalpur Municipality",
+      "focal": "Sushil Mandal",
+      "contact": 9812159949
+    },
+    {
+      "district": "Mahottari",
+      "hospital": "Samsi Rural Municipality",
+      "focal": "Sanjay Shah",
+      "contact": 9819899371
+    },
+    {
+      "district": "Mahottari",
+      "hospital": "Gaushala Municipality",
+      "focal": "Gyan Kumar Mahato",
+      "contact": 9844295970
+    },
+    {
+      "district": "Mahottari",
+      "hospital": "Loharpatti Municipality",
+      "focal": "Dhanesh Mandal",
+      "contact": 9807613974
+    },
+    {
+      "district": "Mahottari",
+      "hospital": "Manara Siswa Municipality",
+      "focal": "Manohar Shah",
+      "contact": 9807872545
+    },
+    {
+      "district": "Mahottari",
+      "hospital": "Pipara Rural Municipality",
+      "focal": "Birendra Das",
+      "contact": 9827634434
+    },
+    {
+      "district": "Mahottari",
+      "hospital": "Ekdara Rural Municipality",
+      "focal": "Jog Kumar Yadav",
+      "contact": 9844535612
+    },
+    {
+      "district": "Mahottari",
+      "hospital": "Matihani Municipality",
+      "focal": "Rakesh Kumar Raan",
+      "contact": 9815867610
+    },
+    {
+      "district": "Mahottari",
+      "hospital": "Bhangaha Municipality",
+      "focal": "Ram Ishwar Thakur",
+      "contact": "9815815017, 9803957057"
+    }],
+    
+    "Parsa":[{
+      "district": "Parsa",
+      "hospital": "Birgunj Health care hospital",
+      "focal": "",
+      "contact": ""
+    }
+  ]
+}

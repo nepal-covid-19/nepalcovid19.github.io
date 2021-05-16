@@ -1,0 +1,405 @@
+{
+    "Kathmandu":
+    [
+        {
+          "name": "Remdesivir",
+          "district": "Kathmandu",
+          "hospital": "Teaching hospital",
+          "count": 135,
+          "contact": "01-4410911",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "Nepal Police hospital",
+          "count": 108,
+          "contact": "01-4412430 <br> 4412530 <br> 4412630",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "Grande hospital",
+          "count": 54,
+          "contact": "01-5159266 <br> 01-51592687 <br> 9801202550",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "Chirayu hospital",
+          "count": 54,
+          "contact": "01-5905888 <br> 01-5902999 <br> 01-5902888 <br> 01-5900765",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "KDC",
+          "count": 27,
+          "contact": "01-4385910 <br> 4385911",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "Bhaktapur hospital",
+          "count": 27,
+          "contact": "01-6610676 <br> 01-6610798 <br> 01-6616049",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "madhyapur hospital",
+          "count": 12,
+          "contact": "01-5093388",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "HAMS hospital",
+          "count": 108,
+          "contact": "01-4377404 <br> 4377704 <br> 4376925 <br> 4376926 <br> 4377781 <br> 4376914",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "B & B hospital",
+          "count": 54,
+          "contact": "01-5531933",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "Norvic hospital",
+          "count": 54,
+          "contact": "01-5970032<br>01-4218230 <br> 01-4101600",
+          "": "01-5970032<br>01-4218230 <br> 01-4101600"
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "Sahid Sukraraj Tropical/TEKU hospital",
+          "count": 108,
+          "contact": "01-4253396",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "Kathmandu Medical College",
+          "count": 54,
+          "contact": "01-4469064 / 4476152",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "Helping hands Community hospital",
+          "count": 27,
+          "contact": "01-4473518 <br> 4496807",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "OM hospital",
+          "count": 54,
+          "contact": "01-4476225",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "Nidaan hospital",
+          "count": 54,
+          "contact": "01-5431333",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "Medicare hospital",
+          "count": 54,
+          "contact": "01-4467067",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "Vayodhya hospital",
+          "count": 12,
+          "contact": "01-4286428",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "Greencity hospital",
+          "count": 54,
+          "contact": "01-4952248 ext. 4981133",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "khaangri hospital",
+          "count": 12,
+          "contact": "01-4917803",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "Manmohan Memorial hospital",
+          "count": 24,
+          "contact": "01-5247317",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "Sahid Gangalaal hospital",
+          "count": 12,
+          "contact": "01-4371322",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "Nepal Army hospital",
+          "count": 54,
+          "contact": "",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "Nepal APF hospital",
+          "count": 54,
+          "contact": "985-1272008",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "Sumeru City hospital",
+          "count": 18,
+          "contact": "01-5534444",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "Mediplus",
+          "count": 12,
+          "contact": "061-550497",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "Korean friendly hospital",
+          "count": 12,
+          "contact": "01-6633442",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "Scheer memorial hospital",
+          "count": 12,
+          "contact": "011-661111",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "Bir hospital",
+          "count": 54,
+          "contact": "01-4221119",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "Medicity hospital",
+          "count": 108,
+          "contact": "01-4217766",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "Nepal Medical college",
+          "count": 12,
+          "contact": "01-4911008",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "Patan hospital",
+          "count": 54,
+          "contact": "01-5522295",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "Star hospital",
+          "count": 12,
+          "contact": "01-5550197",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "Megha hospital",
+          "count": 27,
+          "contact": "01-5153398",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "Civil hospital",
+          "count": 108,
+          "contact": "01-4107000",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "Nepal National hospital",
+          "count": 54,
+          "contact": "01-5225101",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "Narayani hospital",
+          "count": 54,
+          "contact": "051-522153",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "Bharatpur hospital",
+          "count": 18,
+          "contact": "056-524300",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "Fishtail Hospital Pokhara",
+          "count": 27,
+          "contact": "061-528999",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "kirtipur Hospital",
+          "count": 27,
+          "contact": "",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "Dirghayu guru Hospital",
+          "count": 27,
+          "contact": "01-4469693",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "Kathmandu Model Hospital",
+          "count": 27,
+          "contact": "01-4240805",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "Lumbini Provincial Hospital",
+          "count": 108,
+          "contact": "071-540200",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "UCMS",
+          "count": 54,
+          "contact": "071-522896",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "Rapti Sub-Regional Hospital",
+          "count": 54,
+          "contact": "",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "Nepalgunj Medical College",
+          "count": 108,
+          "contact": "081-540405",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "Department of Health Service",
+          "count": 108,
+          "contact": "01-4261712",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "Civik Hospital",
+          "count": 27,
+          "contact": "",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "Sahid Memorial Hospital",
+          "count": 27,
+          "contact": "01-5218921",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "B.P Smriti Hospital",
+          "count": 27,
+          "contact": "01-4387096",
+          "": ""
+        },
+        {
+          "name": "Remdesivir",
+          "district": "",
+          "hospital": "Nepal Bharat Maitri Hospital",
+          "count": 27,
+          "contact": "01-5241288",
+          "": ""
+        }
+      ]
+}

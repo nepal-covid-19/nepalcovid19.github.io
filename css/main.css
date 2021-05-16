@@ -366,6 +366,12 @@ td {
   word-wrap: break-word;
   }
 
+  contact {
+    overflow: hidden;
+    max-width: 100px;
+    word-wrap: break-word;
+    }
+    
 .table td {
     text-align: center;   
  }
