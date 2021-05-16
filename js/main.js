@@ -6,12 +6,17 @@ $(document).ready(function () {
     // $table_remdesivir = $('#table-remdesivir');
     // $table_testing = $('#table-testing');
     tables = ['beds','ambulance','remdesivir','testing'];
+    // tables = ['beds'];
+    init_hidden_tables = ['ambulance','remdesivir','testing'];
+
     
     $.each(tables, function(i,tab){
         url = 'data/table-'+tab+'.json';
         $table = $('#table-'+tab);
         init_table(url, $table);
     })
+
+    show_only_default_table();
 
     $(".parent").on("click", function () {
       $('.parent').removeClass('highlight');
@@ -22,6 +27,18 @@ $(document).ready(function () {
       $table.closest('.bootstrap-table').show();
       refresh_table($table);
     });
+
+    // This needs to change. This is a temp fix
+    function show_only_default_table(){
+      $('.bootstrap-table').hide();
+      $id = $(".highlight")[0].id;
+      log($id)
+      $table = $('#table-'+$id);   
+      console.warn($table)
+      $table.closest('.bootstrap-table').show();
+      refresh_table($table);
+    }
+
 
     function update_url(id) {
       $table.bootstrapTable('load',{
@@ -47,7 +64,8 @@ $(document).ready(function () {
 
     $('select').on('change',function(){
       place = this.value;  
-      $id = $(".highlight")[0].id;log($id)
+      $id = $(".highlight")[0].id;
+      log($id)
       $table = $('#table-'+$id);    
       refresh_table($table);
     });
@@ -55,6 +73,7 @@ $(document).ready(function () {
   });
 
   function refresh_table($table){
+    // console.warn($table)
     $table.bootstrapTable('refresh');
   }
 

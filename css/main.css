@@ -373,3 +373,22 @@ td {
  .highlight {
    background: grey;
  }
+
+ footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: #0d6efd;
+  color: #fff;
+  margin-top: 50px;
+}
+
+.hidden
+{
+ display: none;
+}
+
+
+.navbar-brand {
+  color: rgb(255, 1, 1) !important;
+}
